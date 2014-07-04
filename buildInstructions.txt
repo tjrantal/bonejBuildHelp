@@ -1,0 +1,11 @@
+Java jdk, and ant need to be set up first (google for instructions, if not done already).
+
+Download java3D (https://java3d.java.net/binary-builds.html), extract /bin and /lib to BoneJ root folder
+Dowload ImageJ (http://imagej.nih.gov/ij/download.html), and copy ij.jar to /lib (extract the .jar from the .zip)
+
+Git clone ImageJ source (https://github.com/imagej/imagej), build with maven (mvn install), and copy jar to /lib
+
+Download ImageJ_3D_Viewer.jar (http://3dviewer.neurofly.de/), and copy it to /lib
+Download junitX.XX.jar (http://search.maven.org/#search|gav|1|g:%22junit%22%20AND%20a:%22junit%22), and copy it to /lib
+Download imglib.jar (http://www.java2s.com/Code/Jar/i/Downloadimglibjar.htm), and copy it to /lib
+NO HELP Download imglib2.jar (http://jenkins.imagej.net/job/ImgLib/lastSuccessfulBuild/artifact/imglib2/core/target/), and copy it to /lib
